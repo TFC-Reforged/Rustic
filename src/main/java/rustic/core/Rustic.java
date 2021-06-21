@@ -162,9 +162,9 @@ public class Rustic {
 	public void postInit(FMLPostInitializationEvent event) {
 		proxy.postInit(event);
 		
-		if (Loader.isModLoaded("forestry") && Config.ENABLE_FORESTRY_COMPAT) {
+		/*if (Loader.isModLoaded("forestry") && Config.ENABLE_FORESTRY_COMPAT) {
 			Compat.doForestryCompat();
-		}
+		}*/
 		
 		// Fix for Rustic Thaumaturgy adding recipes directly in the data structure
 		Recipes.injectEvaporatingRecipes();

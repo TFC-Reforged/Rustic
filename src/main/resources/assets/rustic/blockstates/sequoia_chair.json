@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"facing=north":	{ "model": "rustic:sequoia_chair" },
+		"facing=east":	{ "model": "rustic:sequoia_chair", "y": 90},
+		"facing=south":	{ "model": "rustic:sequoia_chair", "y": 180 },
+		"facing=west":	{ "model": "rustic:sequoia_chair", "y": 270 }
+	}
+}

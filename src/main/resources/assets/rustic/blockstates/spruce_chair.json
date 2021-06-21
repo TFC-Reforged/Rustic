@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"facing=north":	{ "model": "rustic:spruce_chair" },
+		"facing=east":	{ "model": "rustic:spruce_chair", "y": 90},
+		"facing=south":	{ "model": "rustic:spruce_chair", "y": 180 },
+		"facing=west":	{ "model": "rustic:spruce_chair", "y": 270 }
+	}
+}

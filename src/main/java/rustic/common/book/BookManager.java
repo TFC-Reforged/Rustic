@@ -90,7 +90,7 @@ public class BookManager {
 			tables = new BookEntry("tables", decoration).setIcon(new ItemStack(ModBlocks.TABLE_OAK));
 		}
 		if (Config.ENABLE_CHAIRS) {
-			chairs = new BookEntry("chairs", decoration).setIcon(new ItemStack(ModBlocks.CHAIR_OAK));
+			//chairs = new BookEntry("chairs", decoration).setIcon(new ItemStack(ModBlocks.CHAIR_OAK));
 		}
 		gargoyles = new BookEntry("gargoyles", decoration).setIcon(new ItemStack(ModBlocks.GARGOYLE));
 		if (Config.ENABLE_SLATE) {
@@ -140,9 +140,9 @@ public class BookManager {
 		if (Config.ENABLE_TABLES) {
 			tables.addPage(new BookPageText(tables, "tables").addRelatedEntries(chairs));
 		}
-		if (Config.ENABLE_CHAIRS) {
+		/*if (Config.ENABLE_CHAIRS) {
 			chairs.addPage(new BookPageText(chairs, "chairs").addRelatedEntries(tables));
-		}
+		}*/
 		gargoyles.addPage(new BookPageText(gargoyles, "gargoyles"));
 		if (Config.ENABLE_SLATE) {
 			if (Config.NETHER_SLATE) {

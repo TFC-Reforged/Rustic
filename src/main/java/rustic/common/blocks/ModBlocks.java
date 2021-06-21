@@ -69,12 +69,26 @@ public class ModBlocks {
 	public static BlockChandelier CHANDELIER_SILVER;
 	public static BlockBeehive BEEHIVE;
 	public static BlockApiary APIARY;
-	public static BlockChair CHAIR_OAK;
-	public static BlockChair CHAIR_BIG_OAK;
-	public static BlockChair CHAIR_BIRCH;
-	public static BlockChair CHAIR_SPRUCE;
-	public static BlockChair CHAIR_ACACIA;
-	public static BlockChair CHAIR_JUNGLE;
+	public static BlockChair ACACIA_CHAIR;
+	public static BlockChair BLACKWOOD_CHAIR;
+	public static BlockChair KAPOK_CHAIR;
+	public static BlockChair PINE_CHAIR;
+	public static BlockChair SYCAMORE_CHAIR;
+	public static BlockChair ASH_CHAIR;
+	public static BlockChair CHESTNUT_CHAIR;
+	public static BlockChair MAPLE_CHAIR;
+	public static BlockChair ROSEWOOD_CHAIR;
+	public static BlockChair WHITE_CEDAR_CHAIR;
+	public static BlockChair ASPEN_CHAIR;
+	public static BlockChair DOUGLAS_FIR_CHAIR;
+	public static BlockChair OAK_CHAIR;
+	public static BlockChair SEQUOIA_CHAIR;
+	public static BlockChair WHITE_ELM_CHAIR;
+	public static BlockChair BIRCH_CHAIR;
+	public static BlockChair HICKORY_CHAIR;
+	public static BlockChair PALM_CHAIR;
+	public static BlockChair SPRUCE_CHAIR;
+	public static BlockChair WILLOW_CHAIR;
 	public static BlockTable TABLE_OAK;
 	public static BlockTable TABLE_BIG_OAK;
 	public static BlockTable TABLE_BIRCH;
@@ -204,14 +218,26 @@ public class ModBlocks {
 			CLAY_WALL_DIAG = (BlockClayWallDiag) new BlockClayWallDiag().setHardness(1F);
 		}
 		if (Config.ENABLE_CHAIRS) {
-			CHAIR_OAK = new BlockChair("oak");
-			CHAIR_BIG_OAK = new BlockChair("big_oak");
-			CHAIR_BIRCH = new BlockChair("birch");
-			CHAIR_SPRUCE = new BlockChair("spruce");
-			CHAIR_ACACIA = new BlockChair("acacia");
-			CHAIR_JUNGLE = new BlockChair("jungle");
-			CHAIR_OLIVE = new BlockChair("olive");
-			CHAIR_IRONWOOD = new BlockChair("ironwood");
+			ACACIA_CHAIR = new BlockChair("ACACIA");
+			BLACKWOOD_CHAIR = new BlockChair("BLACKWOOD");
+			KAPOK_CHAIR = new BlockChair("KAPOK");
+			PINE_CHAIR = new BlockChair("PINE");
+			SYCAMORE_CHAIR = new BlockChair("SYCAMORE");
+			ASH_CHAIR = new BlockChair("ASH");
+			CHESTNUT_CHAIR = new BlockChair("CHESTNUT");
+			MAPLE_CHAIR = new BlockChair("MAPLE");
+			ROSEWOOD_CHAIR = new BlockChair("ROSEWOOD");
+			WHITE_CEDAR_CHAIR = new BlockChair("WHITE_CEDAR");
+			ASPEN_CHAIR = new BlockChair("ASPEN");
+			DOUGLAS_FIR_CHAIR = new BlockChair("DOUGLAS_FIR");
+			OAK_CHAIR = new BlockChair("OAK");
+			SEQUOIA_CHAIR = new BlockChair("SEQUOIA");
+			WHITE_ELM_CHAIR = new BlockChair("WHITE_ELM");
+			BIRCH_CHAIR = new BlockChair("BIRCH");
+			HICKORY_CHAIR = new BlockChair("HICKORY");
+			PALM_CHAIR = new BlockChair("PALM");
+			SPRUCE_CHAIR = new BlockChair("SPRUCE");
+			WILLOW_CHAIR = new BlockChair("WILLOW");
 		}
 		if (Config.ENABLE_TABLES) {
 			TABLE_OAK = new BlockTable("oak");
@@ -438,14 +464,26 @@ public class ModBlocks {
 			CLAY_WALL_DIAG.initModel();
 		}
 		if (Config.ENABLE_CHAIRS) {
-			CHAIR_OAK.initModel();
-			CHAIR_BIG_OAK.initModel();
-			CHAIR_BIRCH.initModel();
-			CHAIR_SPRUCE.initModel();
-			CHAIR_ACACIA.initModel();
-			CHAIR_JUNGLE.initModel();
-			CHAIR_OLIVE.initModel();
-			CHAIR_IRONWOOD.initModel();
+			ACACIA_CHAIR.initModel();
+			BLACKWOOD_CHAIR.initModel();
+			KAPOK_CHAIR.initModel();
+			PINE_CHAIR.initModel();
+			SYCAMORE_CHAIR.initModel();
+			ASH_CHAIR.initModel();
+			CHESTNUT_CHAIR.initModel();
+			MAPLE_CHAIR.initModel();
+			ROSEWOOD_CHAIR.initModel();
+			WHITE_CEDAR_CHAIR.initModel();
+			ASPEN_CHAIR.initModel();
+			DOUGLAS_FIR_CHAIR.initModel();
+			OAK_CHAIR.initModel();
+			SEQUOIA_CHAIR.initModel();
+			WHITE_ELM_CHAIR.initModel();
+			BIRCH_CHAIR.initModel();
+			HICKORY_CHAIR.initModel();
+			PALM_CHAIR.initModel();
+			SPRUCE_CHAIR.initModel();
+			WILLOW_CHAIR.initModel();
 		}
 		if (Config.ENABLE_TABLES) {
 			TABLE_OAK.initModel();

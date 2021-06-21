@@ -332,7 +332,8 @@ public class Recipes {
 					'P', "plankWood", 'C', ModBlocks.CLAY_WALL).setRegistryName(new ResourceLocation(Rustic.MODID, "clay_wall_diag")));
 		}
 		if (Config.ENABLE_CHAIRS) {
-			GameRegistry.addShapedRecipe(new ResourceLocation(Rustic.MODID, "acacia_chair"), new ResourceLocation(Rustic.MODID, "chair"), new ItemStack(ModBlocks.CHAIR_ACACIA, 4), "P  ", "PPP", "S S", 'P',
+			// TODO ДОБАВИТЬ КРАФТЫ
+			/*GameRegistry.addShapedRecipe(new ResourceLocation(Rustic.MODID, "acacia_chair"), new ResourceLocation(Rustic.MODID, "chair"), new ItemStack(ModBlocks.CHAIR_ACACIA, 4), "P  ", "PPP", "S S", 'P',
 					new ItemStack(Blocks.PLANKS, 1, 4), 'S', new ItemStack(Items.STICK));
 			GameRegistry.addShapedRecipe(new ResourceLocation(Rustic.MODID, "big_oak_chair"), new ResourceLocation(Rustic.MODID, "chair"), new ItemStack(ModBlocks.CHAIR_BIG_OAK, 4), "P  ", "PPP", "S S", 'P',
 					new ItemStack(Blocks.PLANKS, 1, 5), 'S', new ItemStack(Items.STICK));
@@ -349,7 +350,7 @@ public class Recipes {
 					new ItemStack(Items.STICK));
 			GameRegistry.addShapedRecipe(new ResourceLocation(Rustic.MODID, "ironwood_chair"), new ResourceLocation(Rustic.MODID, "chair"), new ItemStack(ModBlocks.CHAIR_IRONWOOD, 4), "p  ", "ppp", "s s", 'p',
 					new ItemStack(ModBlocks.PLANKS, 1, BlockPlanksRustic.EnumType.IRONWOOD.getMetadata()), 's',
-					new ItemStack(Items.STICK));
+					new ItemStack(Items.STICK));*/
 		}
 		if (Config.ENABLE_TABLES) {
 			GameRegistry.addShapedRecipe(new ResourceLocation(Rustic.MODID, "acacia_table"), new ResourceLocation(Rustic.MODID, "table"), new ItemStack(ModBlocks.TABLE_ACACIA, 2), "PPP", "S S", 'P',

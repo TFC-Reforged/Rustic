@@ -17,7 +17,7 @@ import rustic.core.Rustic;
 
 public class Compat {
 	public static final String QUARK = "quark";
-
+/*
 	@Optional.Method(modid = "forestry")
 	public static void doForestryCompat() {
 
@@ -228,7 +228,7 @@ public class Compat {
 		Rustic.logger.info("Initialized Forestry compat module");
 
 	}
-	
+	*/
 	@Optional.Method(modid = "dynamictrees")
 	public static void preInitDynamicTreesCompat() {
 		DynamicTreesCompat.preInit();
